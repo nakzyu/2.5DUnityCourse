@@ -29,8 +29,6 @@ public class PartyManager : MonoBehaviour
                 newPartyMember.Initiative = allMembers[i].BaseInitiative;
                 newPartyMember.MemberBattleVisualPrefab = allMembers[i].MemberBattleVisualPrefab;
                 newPartyMember.MemberOverworldVisualPrefab = allMembers[i].MemberOverworldVisualPrefab;
-
-
                 currentParty.Add(newPartyMember);
             }
         }
